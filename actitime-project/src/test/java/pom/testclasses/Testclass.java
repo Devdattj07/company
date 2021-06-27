@@ -49,10 +49,7 @@ public class Testclass {
 	{
 		
 		Thread.sleep(5000);
-//		homepage=new Homepage(driver);
-//		homepage.clickuser();
-//		 homepage.takes();
-//		String url=driver.getCurrentUrl();
+
 
  user=	driver.findElement(By.xpath("//input[@name='username']"));
  pass2=	driver.findElement(By.xpath("(//input[@type='password'])[1]"));
@@ -83,7 +80,7 @@ public class Testclass {
 	public Object[][] getData()
 	{
 		
-		Object[][] data= {{"admin","manager"},{"admin1","manager1"}};
+		Object[][] data= {{"admin","manager"},{"admin","manager"}};
 return data;
 		
 	}
